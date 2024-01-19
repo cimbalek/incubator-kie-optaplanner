@@ -59,16 +59,16 @@ maven:
     build_promotion_profile_id: TO_DEFINE
   artifacts_repository: ''
   artifacts_upload_repository:
-    url: https://repository.apache.org/content/repositories/snapshots
-    creds_id: apache-nexus-kie-deploy-credentials
+    url: DISABLED
+    creds_id: DISABLED
 cloud:
   image:
-    registry_credentials: tradisso_registry_token # TODO set to `kogito-quay-token`
-    registry: quay.io
-    namespace: tradisso
+    registry_credentials: DISABLED
+    registry: DISABLED
+    namespace: DISABLED
     latest_git_branch: main
 jenkins:
-  email_creds_id: OPTAPLANNER_CI_NOTIFICATION_EMAILS
+  email_creds_id: DISABLED
   agent:
     docker:
       builder:

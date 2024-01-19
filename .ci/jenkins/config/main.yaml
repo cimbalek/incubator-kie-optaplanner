@@ -25,4 +25,4 @@ seed:
       branch: main
     path: .ci/jenkins/config/branch.yaml
 jenkins:
-  email_creds_id: OPTAPLANNER_CI_NOTIFICATION_EMAILS
+  email_creds_id: DISABLED
